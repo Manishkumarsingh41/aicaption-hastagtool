@@ -9,7 +9,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 # Set up OpenAI API key
-openai.api_key = "sk-proj-VDQo6VkSDZvveK7l0Ec8T3BlbkFJnbAaR7FcjfQNdphe2y13"
+openai.api_key = "sk-proj-VDQo6VkSDZvveK7l0EbkFJnbAaR7FcjfQNdphe2y13"
 # Set up upload folder
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
